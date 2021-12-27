@@ -7,4 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return type(math.pow(a,0.5))==int
+    return math.sqrt(a)-int(math.sqrt(a))==0
+
